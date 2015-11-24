@@ -31,7 +31,11 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/Ant-OS/antos_manifest.git -b cm-13.0
+    repo init -u git://github.com/Ant-OS/antos_manifest.git -b mm
+    
+Para Manu y su BQ
+
+    repo init -u git://github.com/Ant-OS/antos_manifest.git -b bq_cm-13.0
 
 Then to sync up:
 
