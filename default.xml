@@ -16,7 +16,7 @@
           
   <remote  name="antos"
            fetch="https://github.com/Ant-OS/" 
-           revision="cm-13.0"/>    
+           revision="mm"/>    
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -558,13 +558,7 @@
  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="du" revision="m" />
  <project path="vendor/motorola" name="android_vendor_motorola" remote="du" revision="m" />
  <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" remote="github" revision="aosp" />
- <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="antos" revision="cm-13.0" />
- <project path="device/moto/shamu" name="android_device_moto_shamu" remote="antos" revision="cm-13.0" />
- 
-<!-- Mis Projects BQ -->
- <project path="kernel/bq/piccolo" name="TeamEvoMagix/android_kernel_bq_piccolo" groups="device,piccolo" remote="github" revision="evoL" /> 
- <project path="device/bq/piccolo" name="TeamEvoMagix/android_device_bq_piccolo" groups="device,piccolo" remote="github" revision="evoL" />
- <project path="vendor/piccolo" name="TeamEvoMagix/proprietary_vendor_bq" remote="github" revision="evoL" />
- <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0" />
+ <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="antos" revision="mm" />
+ <project path="device/moto/shamu" name="android_device_moto_shamu" remote="antos" revision="mm" />
  
 </manifest>
