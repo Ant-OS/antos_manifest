@@ -16,7 +16,7 @@
           
   <remote  name="antos"
            fetch="https://github.com/Ant-OS/" 
-           revision="13.0"/>    
+           revision="cm-13.0"/>    
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
