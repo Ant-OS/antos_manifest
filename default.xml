@@ -558,5 +558,6 @@
   <project path="device/moto/shamu" name="android_device_moto_shamu" remote="antos" revision="mm" />
   <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="antos" revision="mm" />  
   <project path="vendor/motorola" name="android_vendor_motorola" remote="du" revision="m" />
- 
+  <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" remote="github" revision="aosp" /> 
+  
 </manifest>
