@@ -14,6 +14,10 @@
            fetch="https://github.com/Ant-OS/" 
            revision="mm"/>    
 
+  <remote  name="du"
+          fetch="https://github.com/DirtyUnicorns/"
+          review="gerrit.dirtyunicorns.com" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
