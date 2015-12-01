@@ -35,7 +35,6 @@
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
@@ -559,6 +558,7 @@
  <project path="vendor/antos" name="android_vendor_antos" remote="antos" revision="cm-13.0" />
  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="antos" revision="cm-13.0" />
  <project path="prebuilts/cmsdk" name="android_prebuilts_cmsdk" remote="antos" revision="cm-13.0" />
+ <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="antos" revision="cm-13.0" />
  
 <!-- Mis Projects BQ -->
  <project path="kernel/bq/piccolo" name="TeamEvoMagix/android_kernel_bq_piccolo" groups="device,piccolo" remote="github" revision="evoL" /> 
