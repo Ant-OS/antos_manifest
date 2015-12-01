@@ -560,10 +560,4 @@
  <project path="prebuilts/cmsdk" name="android_prebuilts_cmsdk" remote="antos" revision="cm-13.0" />
  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="antos" revision="cm-13.0" />
  
-<!-- Mis Projects BQ -->
- <project path="kernel/bq/piccolo" name="TeamEvoMagix/android_kernel_bq_piccolo" groups="device,piccolo" remote="github" revision="evoL" /> 
- <project path="device/bq/piccolo" name="TeamEvoMagix/android_device_bq_piccolo" groups="device,piccolo" remote="github" revision="evoL" />
- <project path="vendor/piccolo" name="TeamEvoMagix/proprietary_vendor_bq" remote="github" revision="evoL" />
- <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0" />
- 
 </manifest>
