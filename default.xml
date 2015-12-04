@@ -551,7 +551,7 @@
 <!-- END AOSP -->
 
 <!-- Ant-OS PROJECTS -->
- <project path="packages/apps/OTAUpdates" name="android_packages_apps_OTAUpdates" remote="antos" revision="cm-13.0" />
+ <!-- <project path="packages/apps/OTAUpdates" name="android_packages_apps_OTAUpdates" remote="antos" revision="cm-13.0" /> -->
  
 <!-- Mis Projects BQ -->
  <project path="kernel/bq/piccolo" name="piccolo-dev/android_kernel_bq_piccolo" groups="device,piccolo" remote="github" revision="cm13.0-test" /> 
