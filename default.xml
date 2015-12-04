@@ -9,10 +9,6 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
-           
-  <remote  name="du"
-           fetch="https://github.com/DirtyUnicorns/"
-           review="gerrit.dirtyunicorns.com" />
           
   <remote  name="antos"
            fetch="https://github.com/Ant-OS/" 
