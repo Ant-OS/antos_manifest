@@ -31,7 +31,7 @@
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="antos_manifest" groups="pdk" remote="antos" revision="bq_cm-13.0" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -262,7 +262,7 @@
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
-  <!-- <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" /> -->
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
@@ -555,13 +555,12 @@
 <!-- END AOSP -->
 
 <!-- Ant-OS PROJECTS -->
- <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="du" revision="m" />
- <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" remote="github" revision="aosp" />
+ <project path="packages/apps/OTAUpdates" name="android_packages_apps_OTAUpdates" remote="antos" revision="cm-13.0" />
  
 <!-- Mis Projects BQ -->
- <project path="kernel/bq/piccolo" name="TeamEvoMagix/android_kernel_bq_piccolo" groups="device,piccolo" remote="github" revision="evoL" /> 
- <project path="device/bq/piccolo" name="TeamEvoMagix/android_device_bq_piccolo" groups="device,piccolo" remote="github" revision="evoL" />
- <project path="vendor/piccolo" name="TeamEvoMagix/proprietary_vendor_bq" remote="github" revision="evoL" />
+ <project path="kernel/bq/piccolo" name="piccolo-dev/android_kernel_bq_piccolo" groups="device,piccolo" remote="github" revision="cm13.0-test" /> 
+ <project path="device/bq/piccolo" name="piccolo-dev/android_device_bq_piccolo" groups="device,piccolo" remote="github" revision="cm13.0-test" />
+ <project path="vendor/piccolo" name="piccolo-dev/proprietary_vendor_bq" remote="github" revision="cm13.0-test" />
  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0" />
  
 </manifest>
