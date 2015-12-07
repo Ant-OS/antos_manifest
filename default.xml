@@ -5,10 +5,6 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-6.0.0_r26" />
-           
-  <remote  name="tm"
-           fetch="https://github.com/TheMuppets/"
-           review="gerrit.dirtyunicorns.com" />
           
   <remote  name="antos"
            fetch="https://github.com/Ant-OS/" 
@@ -550,7 +546,7 @@
 <!-- END AOSP -->
 
 <!-- Ant-OS PROJECTS -->
- <project path="vendor/motorola" name="android_vendor_motorola_shamu" remote="tm" revision="cm-13.0" />
+ <project path="vendor/motorola" name="android_vendor_motorola" remote="antos" revision="cm-13.0" />
  <project path="packages/apps/OTAUpdates" name="android_packages_apps_OTAUpdates" remote="antos" revision="cm-13.0" />
  <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="antos" revision="cm-13.0" />
  <project path="device/moto/shamu" name="android_device_moto_shamu" remote="antos" revision="cm-13.0" />
