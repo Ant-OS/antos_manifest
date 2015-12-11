@@ -550,10 +550,13 @@
  <project path="packages/apps/OTAUpdates" name="android_packages_apps_OTAUpdates" remote="antos" revision="cm-13.0" />
  <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="antos" revision="cm-13.0" />
  <project path="device/moto/shamu" name="android_device_moto_shamu" remote="antos" revision="cm-13.0" />
- <project path="vendor/cmsdk" name="android_vendor_cmsdk" remote="antos" revision="cm-13.0" />
+ <!-- <project path="vendor/cmsdk" name="android_vendor_cmsdk" remote="antos" revision="cm-13.0" /> -->
+ <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
  <project path="vendor/antos" name="android_vendor_antos" remote="antos" revision="cm-13.0" />
- <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="antos" revision="cm-13.0" />
- <project path="prebuilts/cmsdk" name="android_prebuilts_cmsdk" remote="antos" revision="cm-13.0" />
+ <!-- <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="antos" revision="cm-13.0" /> -->
+ <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
+ <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" revision="master" />
+ <!-- <project path="prebuilts/cmsdk" name="android_prebuilts_cmsdk" remote="antos" revision="cm-13.0" /> -->
  <!-- <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="antos" revision="cm-13.0" /> -->
  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
  
