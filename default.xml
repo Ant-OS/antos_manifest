@@ -548,7 +548,8 @@
 <!-- Ant-OS PROJECTS -->
  <project path="vendor/motorola" name="android_vendor_motorola" remote="antos" revision="cm-13.0" />
  <project path="packages/apps/OTAUpdates" name="android_packages_apps_OTAUpdates" remote="antos" revision="cm-13.0" />
- <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="antos" revision="cm-13.0" />
+ <!-- <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="antos" revision="cm-13.0" /> -->
+ <project path="kernel/moto/eliteshamu" name="elite_shamu" groups="device,shamu,broadcom_pdk" remote="elite" revision="Elite-M-upstream" />
  <project path="device/moto/shamu" name="android_device_moto_shamu" remote="antos" revision="cm-13.0" />
  <!-- <project path="vendor/cmsdk" name="android_vendor_cmsdk" remote="antos" revision="cm-13.0" /> -->
  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
