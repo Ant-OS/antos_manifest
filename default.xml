@@ -13,6 +13,8 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote name="elite"
+           fetch="https://github.com/Elite-Kernels/" /> 
 
   <remote  name="github"
            fetch=".."
